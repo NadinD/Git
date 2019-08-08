@@ -12,6 +12,8 @@ def draw():
     screen.fill((0, 0, 0))
     pygame.draw.rect(screen, (152, 118, 84), (345, 260, 5, 100), 0)
     pygame.draw.rect(screen, (255, 255, 255), (350, 260, 100, 20), 0)
+    pygame.draw.rect(screen, (0, 0, 255), (350, 280, 100, 20), 0) # blue
+
 
 draw()
 # смена (отрисовка) кадра:
